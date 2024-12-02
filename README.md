@@ -13,6 +13,7 @@
 #### ```download_photo(self, element, path="")```
 - Element: must be the id of image or ```PexelPhoto()``` element
 - path: keep empty for created file in local folder
-### ```download_video(self, element, path="")```
+### ```download_video(self, element, path="", quality="original")```
 - element: Must be a PexelVideo element
 - path: keep empty for created file in local folder
+- Quality: quality of the video (```original```, ```sd```, ```hd```)
