@@ -12,3 +12,7 @@
 - Element: must be the id of image or ```PexelPhoto()``` element
 #### ```download_photo(self, element, path="")```
 - Element: must be the id of image or ```PexelPhoto()``` element
+- path: keep empty for created file in local folder
+### ```download_video(self, element, path="")```
+- element: Must be a PexelVideo element
+- path: keep empty for created file in local folder
