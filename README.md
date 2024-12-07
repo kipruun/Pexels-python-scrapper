@@ -35,7 +35,7 @@
   - username
   - avatar
 - tags
-### PexelPhoto(PexelsElement): ``` PexelPhoto(PexelsElement) ```
+## PexelPhoto(PexelsElement): ``` PexelPhoto(PexelsElement) ```
 - images: list of differents size of a single image
-### PexelVideo(PexelsElement): ``` PexelVideo(PexelsElement) ```
+## PexelVideo(PexelsElement): ``` PexelVideo(PexelsElement) ```
 - videos: list of differents quality and size of a single video
