@@ -90,11 +90,11 @@ class Pexels():
         
         
     def download_photo(self, element, path=""):
-        """A function which allow to downlad photo
+        """A function which allow to download photo
 
         Args:
             element (dict/str): Must be the photo's id or a photo element
-            path (str, optional): If path None the file is going to be saved at local folder. Defaults to "".
+            path (str, optional): If path empty the file is going to be saved at local folder. Defaults to "".
         """
         element, url = self.get_photo_url(element)
         if path=="":
@@ -108,6 +108,13 @@ class Pexels():
         
         
     def download_video(self, element, path="", quality="original"):
+        """A function which allow to download video
+
+        Args:
+            element (PexelVideo): Must be a PexelVideo element
+            path (str, optional): If path empty the file is going to be saved at local folder. Defaults to "".
+            quality (str, optional): The quality of the video which going to be download (sd, hd, original). Defaults to "original"
+        """
         if quality=="original":
             url = element.videos.get("src")
             
